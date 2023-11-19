@@ -1,0 +1,61 @@
+body{
+    min-height: 2000px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding-top: 4rem;
+}
+.navbar {
+    background-color: rgb(213, 216, 218); /* Warna latar belakang navbar yang diinginkan */
+  }
+.katalog {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    /* Atur lebar maksimum dan tinggi maksimum sesuai keinginan Anda */
+    max-width: 200px; /* Ubah sesuai kebutuhan */
+    max-height: 200px; /* Ubah sesuai kebutuhan */
+}
+.social-logo {
+    width: 30px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: auto;
+    margin-right: 10px; /* Sesuaikan spasi antara logo dengan teks lain jika diperlukan */
+}
+#contact {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact-info {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* CSS untuk footer */
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
